@@ -3,7 +3,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #F8C8DC;
+    margin: 0;
+    padding: 0;
+    /* Ajoutez le GIF comme fond d'écran */
+    background-image: url('giphy_rain.gif');
+    /* Assurez-vous que l'image de fond couvre toute la page */
+    background-size: cover;
+    /* Optionnel : centrer l'image de fond */
+    background-position: center;
+    /* Assurez-vous que l'image de fond est fixe lorsque vous faites défiler la page */
+    background-attachment: fixed;
+    
+    
 }
 
 #noButton {
